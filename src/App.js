@@ -1,23 +1,45 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>Martijn Halekor</h1>
+        <span>designer</span>
       </header>
+
+      <nav>
+        
+      </nav>
+
+      <main>
+        <article>
+          <h2>Glitch Art</h2>
+          <p>Databending experiment.</p>
+        </article>
+
+        <div className="grid">
+          <div className="row">
+            <div className="col">
+              <img src="./img/glitch-1.jpg" alt="glitch" />
+            </div>
+            <div className="col">
+              <img src="./img/glitch-2.jpg" alt="glitch" />
+            </div>
+            <div className="col">
+              <img src="./img/glitch-3.jpg" alt="glitch" />
+            </div>
+            <div className="col">
+              <img src="./img/glitch-4.jpg" alt="glitch" />
+            </div>
+            <div className="col">
+              <img src="./img/glitch-5.jpg" alt="glitch" />
+            </div>
+          </div>
+        </div>
+      </main>
+
     </div>
   );
 }
